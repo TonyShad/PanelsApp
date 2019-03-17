@@ -1,0 +1,40 @@
+.page-layout {
+	width: 100%;
+	background-color: #ddd;
+	.page-menu {
+		height: 50px;
+		background-color: #f5f5f5;
+		display: flex;
+		justify-content: left;
+
+		h3 {
+			color: red;
+			font-family: sans-serif;
+			font-weight: 800;
+			margin-left: 20px;
+			line-height: 13px;
+		}
+
+		.btn {
+			margin: 5px 0 5px 20px;
+			background-color: blue;
+			padding: 0 20px;
+			border-radius: 3px;
+			font-family: sans-serif;
+			font-size: 22px;
+			color: white;
+			border: 0;
+			cursor: pointer;
+
+			&.enabled {
+				opacity: 0.5;
+			}
+		}
+	}
+	.panels-container {
+		display: flex;
+		justify-content: left;
+		height: 800px;
+	    border-top: 2px solid #ccc;
+	}
+}

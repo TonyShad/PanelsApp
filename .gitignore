@@ -1,0 +1,5 @@
+node_modules/
+panel.bundle.js
+generate_json.js
+names.txt
+description.md
